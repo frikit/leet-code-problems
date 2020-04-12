@@ -26,7 +26,7 @@ fun main() {
 
     minStack.pop()
     println(minStack.getMin() == -3)
-    println(minStack.top() == 0)
+    println(minStack.top() == -3)
     println()
 
     minStack.pop()
@@ -50,8 +50,6 @@ class MinStack {
     }
 
     fun top(): Int {
-        println(min)
-        println(stack)
         return stack.peek()
     }
 
