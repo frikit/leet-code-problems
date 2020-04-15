@@ -9,7 +9,7 @@ https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge
 | From | Total problems solved |
 |---|---|
 Week 1 | 0
-Week 2 | 6
+Week 2 | 7
 Week 3 | 0
 Week 4 | 0
 
