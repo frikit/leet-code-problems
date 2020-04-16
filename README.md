@@ -10,7 +10,7 @@ https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge
 |---|---|
 Week 1 | 0
 Week 2 | 7
-Week 3 | 0
+Week 3 | 1
 Week 4 | 0
 
-# Total: 6
+# Total: 8
