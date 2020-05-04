@@ -1,2 +1,2 @@
-rootProject.name = "kt_interview"
+rootProject.name = "leet-code-problems"
 
