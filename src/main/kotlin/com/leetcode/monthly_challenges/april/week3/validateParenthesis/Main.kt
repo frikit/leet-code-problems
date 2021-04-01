@@ -1,4 +1,4 @@
-package com.leetcode.thirtyDaysChallange.week3.validateParenthesis
+package com.leetcode.monthly_challenges.april.week3.validateParenthesis
 
 fun main() {
     println("Test case 1:")

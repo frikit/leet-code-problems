@@ -1,4 +1,4 @@
-package com.leetcode.thirtyDaysChallange.week2.backspace_compare
+package com.leetcode.monthly_challenges.april.week2.backspace_compare
 
 fun main() {
     println("Test case 1:")

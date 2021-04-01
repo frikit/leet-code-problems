@@ -1,4 +1,4 @@
-package com.leetcode.thirtyDaysChallange.week2.contigous_array
+package com.leetcode.monthly_challenges.april.week2.contigous_array
 
 import java.util.*
 

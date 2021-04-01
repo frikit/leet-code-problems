@@ -1,4 +1,4 @@
-package com.leetcode.thirtyDaysChallange.week2.middle_node
+package com.leetcode.monthly_challenges.april.week2.middle_node
 
 /**
  * Given a non-empty, singly linked list with head node head, return a middle node of linked list.

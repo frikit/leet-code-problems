@@ -1,4 +1,4 @@
-package com.leetcode.thirtyDaysChallange.week2.string_shift
+package com.leetcode.monthly_challenges.april.week2.string_shift
 
 fun main() {
     println("Test case 1:")

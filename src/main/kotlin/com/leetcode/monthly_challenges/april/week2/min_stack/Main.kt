@@ -1,4 +1,4 @@
-package com.leetcode.thirtyDaysChallange.week2.min_stack
+package com.leetcode.monthly_challenges.april.week2.min_stack
 
 import java.util.*
 

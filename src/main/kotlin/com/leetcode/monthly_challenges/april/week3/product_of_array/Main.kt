@@ -1,4 +1,4 @@
-package com.leetcode.thirtyDaysChallange.week3.product_of_array
+package com.leetcode.monthly_challenges.april.week3.product_of_array
 
 fun main() {
     println("Test case 1:")

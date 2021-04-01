@@ -1,4 +1,4 @@
-package com.leetcode.thirtyDaysChallange.week2.last_stone_weight
+package com.leetcode.monthly_challenges.april.week2.last_stone_weight
 
 /**
  * We have a collection of stones, each stone has a positive integer weight.
