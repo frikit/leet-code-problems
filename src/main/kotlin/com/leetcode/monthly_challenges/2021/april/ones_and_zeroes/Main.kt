@@ -20,7 +20,7 @@ class Solution {
         if (strs == null || m < 0 || n < 0) return 0
         val dp = Array(m + 1) { IntArray(n + 1) }
         for (str in strs) {
-            val ones = str.chars().filter { num: Int -> num == '1'.toInt() }.count().toInt()
+            val ones = str.chars().filter { num: Int -> num == Integer.parseInt("1") }.count().toInt()
             val zeroes = str.length - ones
             for (i in m downTo zeroes) {
                 for (j in n downTo ones) {

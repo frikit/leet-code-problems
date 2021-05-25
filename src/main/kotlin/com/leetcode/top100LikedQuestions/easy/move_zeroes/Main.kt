@@ -15,7 +15,7 @@ class Solution {
         val final = mutableListOf<Int>()
         val zeroes = mutableListOf<Int>()
 
-        nums.forEachIndexed { i, number ->
+        nums.forEach { number ->
             if (number == 0) {
                 zeroes.add(0)
             } else {
