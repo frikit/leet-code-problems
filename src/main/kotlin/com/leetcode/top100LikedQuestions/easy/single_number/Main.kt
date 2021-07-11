@@ -6,6 +6,7 @@ fun main() {
     println()
 
 }
+
 class Solution {
     fun singleNumber(nums: IntArray): Int {
         if (nums.size == 1) return nums.first()
