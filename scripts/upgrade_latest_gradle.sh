@@ -6,6 +6,9 @@ cd ../
 echo Make gradlew executable
 chmod +x gradlew
 
+echo "Current version is:"
+./gradlew -v | grep Gradle
+
 echo Upgrade gradle wrapper...
 version_json=$(curl https://services.gradle.org/versions/current)
 
@@ -19,8 +22,6 @@ done <<< "$version_json"
 
 version_line=${version_line/\"version\" : \"/""}
 version_line=${version_line/\",/""}
-
-echo "Version is [${version_line}]"
 
 latest_version=${version_line}
 type="ALL"
