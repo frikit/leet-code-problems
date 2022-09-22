@@ -12,11 +12,9 @@ fun main() {
 }
 
 class Solution {
-    val letters = ('a'..'z').toSet()
     fun checkIfPangram(sentence: String): Boolean {
-        val alphabet = letters.associateWith { 0 }.toMutableMap()
-
-        sentence.toCharArray().forEach { alphabet[it] = 1 }
-        return alphabet.all { it.value > 0 }
+        val hashSet = mutableSetOf<Char>()
+        sentence.toCharArray().forEach { if (!hashSet.contains(it)) hashSet.add(it) }
+        return hashSet.size == 26
     }
 }
