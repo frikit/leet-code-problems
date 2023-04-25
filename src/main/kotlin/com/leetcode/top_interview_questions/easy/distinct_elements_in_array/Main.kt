@@ -1,4 +1,4 @@
-package com.leetcode.top_interview_questions_easy.distinct_elements_in_array
+package com.leetcode.top_interview_questions.easy.distinct_elements_in_array
 
 fun main() {
     println("Test case 1:")
